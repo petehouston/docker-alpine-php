@@ -60,11 +60,14 @@ function test_php_7_0 {
     assert "$result" "$PHP_VERSION_7_0" "FAILED: incorrect PHP version. It should be $PHP_VERSION_7_0"
 }
 
+# test suite
+function run_all_tests {
+    test_php_5_5
+    test_php_5_6
+    test_php_7_0
+}
 ############
 # EXECUTION
 ############
-test_php_5_5
-test_php_5_6
-test_php_7_0
-
+run_all_tests
 
