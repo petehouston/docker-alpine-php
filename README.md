@@ -16,7 +16,7 @@ Following PHP versions are set as default
 
 * [tag:7.0](7.0/Dockerfile) (7.0.6)
 * [tag:5.6](5.6/Dockerfile) (5.6.21)
-* [tag:5.5](5.5/Dockerfile) (5.5.25)
+* [tag:5.5](5.5/Dockerfile) (5.5.35)
 
 ### How to use?
 
