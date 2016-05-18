@@ -16,7 +16,7 @@ CORE_UTILS="git grep zlib tar make libxml2 readline freetype openssl libjpeg-tur
 # build deps
 BUILD_DEPS="build-base re2c file readline-dev autoconf binutils libxml2-dev curl-dev freetype-dev openssl-dev libjpeg-turbo-dev libpng-dev libwebp-dev libmcrypt-dev gmp-dev icu-dev libmemcached-dev"
 
-# default, PHP 7.0.2 fallback
+# default, PHP 5.6.21 fallback
 PHP_VERSION=${1:-"5.6.21"}
 
 # add packages
