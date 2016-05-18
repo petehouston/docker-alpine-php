@@ -1,5 +1,7 @@
 # Docker Alpine PHP
 
+[![](https://imagelayers.io/badge/petehouston/docker-alpine-php:latest.svg)](https://imagelayers.io/?images=petehouston/docker-alpine-php:latest 'Get your own badge on imagelayers.io')
+
 A very small Docker image to bootstrap your PHP development.
 
 ### Why this image?
