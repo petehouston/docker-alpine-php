@@ -10,6 +10,14 @@ Of course, there are [official PHP images](https://hub.docker.com/_/php/) but th
 
 In addition, I sometimes want to quickly run a small PHP script, so I don't really need that big-in-size official images.
 
+### Supported Versions
+
+Following PHP versions are set as default
+
+* [tag:7.0](7.0/Dockerfile) (7.0.6)
+* [tag:5.6](5.6/Dockerfile) (5.6.21)
+* [tag:5.5](5.5/Dockerfile) (5.5.25)
+
 ### How to use?
 
 Just pull it to your local machine,
