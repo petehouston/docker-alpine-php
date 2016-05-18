@@ -94,6 +94,6 @@ strip -s /usr/bin/php
 
 # remove cache and build deps
 cd /
-apk del ${BUILD_DEPS}
+apk del bison ${BUILD_DEPS}
 rm -rf /var/cache/apk/*
 rm -rf /tmp/*
