@@ -18,6 +18,12 @@ Following PHP versions are set as default
 * [tag:5.6](5.6/Dockerfile) (5.6.21)
 * [tag:5.5](5.5/Dockerfile) (5.5.35)
 
+If you want to change version, just update this line in `Dockerfile`,
+
+```
+ENV PHP_VERSION Your_Desired_Version
+```
+
 ### How to use?
 
 Just pull it to your local machine,
