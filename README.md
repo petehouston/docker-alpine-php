@@ -32,6 +32,24 @@ Just pull it to your local machine,
 $ docker pull petehouston/docker-alpine-php
 ```
 
+### Build
+
+The repo uses `make` to execute the command, so you can either use `make` to build or manually issue the commands.
+
+The build commands are listed below:
+
+* `make php-5.5`: to build image for PHP 5.5.
+* `make php-5.6`: to build image for PHP 5.6.
+* `make php-7.0`: to build image for PHP 7.0.
+* `make build`: to build images for all PHP versions.
+* `make test`: to execute image tests.
+* `make all` or `make`: to execute `build` and `test`
+* `make clean`: to remove all images.
+
+### Testing
+
+The test suite is very simple and put in a single test script [tests/index.sh](tests/index.sh).
+
 ### Notes
 
 Please share your words if any. Always welcome :)
