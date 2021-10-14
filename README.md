@@ -19,6 +19,7 @@ REPOSITORY                      TAG          IMAGE ID       CREATED       SIZE
 petehouston/docker-alpine-php   5.5          76642fdcb40d   5 hours ago   136.4 MB
 petehouston/docker-alpine-php   5.6          d4a16ab8659b   6 hours ago   137.2 MB
 petehouston/docker-alpine-php   7.0          5a2b3687d124   9 hours ago   138.5 MB
+petehouston/docker-alpine-php   7.4          5add74c7f4b2   4 hours ago   82.7MB
 
 php                             7.0-alpine   562f31e64296   12 days ago   382.9 MB
 php                             5.6-alpine   7bc0403e7fa9   12 days ago   334.7 MB
@@ -31,6 +32,7 @@ As you can see, **the difference is around 2.5-3 times**.
 
 Following PHP versions are set as default
 
+* [tag:7.4](7.4/Dockerfile) (7.4.24)
 * [tag:7.0](7.0/Dockerfile) (7.0.6)
 * [tag:5.6](5.6/Dockerfile) (5.6.21)
 * [tag:5.5](5.5/Dockerfile) (5.5.35)
